@@ -1,1 +1,55 @@
-<p>category works!</p>
+<header class="header">
+  <div class="header-content">
+      <div class="logo-section">
+          <h1>SAPNA COSMETICS</h1>
+          <p>Order from us on <strong>7798599666</strong></p>
+      </div>
+      <div class="info-section">
+          <p>Home Delivery Available</p>
+          <p>Best Quality Products</p>
+          <p>Wide Range of Cosmetics</p>
+      </div>
+  </div>
+</header>
+
+
+
+
+<div class="category-list">
+  <h2>Rakhi Online</h2>
+  <p class="subheading">Celebrating Yaadon Ka Bandhan</p>
+
+  <div class="card-container">
+    <div *ngFor="let category of categories" class="card" (click)="navigateToDetails(category.id)">
+      <!-- <a [routerLink]="['/category-details', category.id]"> -->
+        <img [src]="category.photoUrl" alt="{{ category.name }}" class="card-image"/>
+        <div class="card-content">
+          <h3 class="card-title">{{ category.name }}</h3>
+        </div>
+      <!-- </a> -->
+    </div>
+  </div>
+</div>
+
+
+<div class="best-seller-rakhi">
+<div class="top_content">
+  <div class="heading_best_saler">
+    <h2>Best Seller Rakhi</h2>
+  <p>A Perfect Way To Celebrate Your Bond</p>
+  </div>
+  <button class="view-all">View All</button>
+
+</div>
+ 
+  <div class="category-list2">
+      <div class="category-item2" *ngFor="let item of bestSaler">
+          <img [src]="item.photoUrl" [alt]="item.name">
+          <div class="item-info">
+              <h3>{{ item.name }}</h3>
+              <p>₹ {{ item.price }}</p>
+              <p>Earliest Delivery : 2-3 days</p>
+          </div>
+      </div>
+  </div>
+</div>

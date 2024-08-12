@@ -9,28 +9,201 @@ import { ActivatedRoute } from '@angular/router';
 export class ProductDetailsComponent implements OnInit {
   products = [
     {
-      id: '1',
-      name: 'Red And Gold Kundan Rakhi',
+      id: '201',
+      name: 'Ganesh Rakhi',
       price: 135,
       images: [
-        'https://imgcdn.floweraura.com/rak-21-4720-A.jpg',
-        'https://imgcdn.floweraura.com/rak-21-4720-B.jpg?tr=w-170,q-60',
-        'https://imgcdn.floweraura.com/rak-21-4720-C.jpg?tr=w-170,q-60',
+        '../../assets/double1.jpeg',
+        '../../assets/double1.jpeg',
+        '../../assets/double1.jpeg',
       ],
-      similarProducts: [
-        { name: 'Basic', price: 135, image: 'https://imgcdn.floweraura.com/rak-21-4720-A.jpg' },
-        { name: 'Serene Kundan', price: 395, image: 'https://imgcdn.floweraura.com/serene-kundan-rakhi-with-hazelnut-rocks-9772277ra-A_0.jpg' }
-      ],
-      specialAdditions: [
-        { name: 'Set of 2 Chocolate Dragees', price: 395, image: 'https://imgcdn.floweraura.com/3-B_56.jpg' },
-        { name: 'Almonds Rocks 100gms', price: 199, image: 'https://imgcdn.floweraura.com/serene-kundan-rakhi-with-hazelnut-rocks-9772277ra-A_0.jpg' },
-        { name: 'Assorted Baklava 9 Pcs', price: 625, image: 'https://imgcdn.floweraura.com/1-B_95.jpg' },
-        { name: 'Haldiram Kaju Katli 200gm', price: 395, image: 'https://imgcdn.floweraura.com/4-A_7.jpg' },
-        { name: 'Roasted Cashew Almond Raisin Gift Box', price: 599, image: 'https://imgcdn.floweraura.com/17-A_1.jpg' }
-      ],
-      url: 'https://yourwebsite.com/product-page-url' // Ensure this URL is set for each product
     },
-    // Add more products here with unique IDs
+    {
+      id: '202',
+      name: 'Brother Rakhi',
+      price: 135,
+      images: [
+        '../../assets/double2.jpeg',
+        '../../assets/double2.jpeg',
+        '../../assets/double2.jpeg',
+      ]
+    },
+    {
+      id: '203',
+      name: 'Evil Eye Rakhi Purpul',
+      price: 135,
+      images: [
+        '../../assets/double3.jpeg',
+       '../../assets/double3.jpeg',
+       '../../assets/double3.jpeg',
+      ]
+    },
+    {
+      id: '204',
+      name: 'Sweet Bro Rakhi',
+      price: 135,
+      images: [
+        '../../assets/double4.jpeg',
+        '../../assets/double4.jpeg',
+        '../../assets/double4.jpeg',
+      ]
+    },
+    {
+      id: '205',
+      name: 'Magical Rakhi',
+      price: 135,
+      images: [
+        '../../assets/double5.jpeg',
+        '../../assets/double5.jpeg',
+        '../../assets/double5.jpeg',
+      ],
+    },
+    {
+      id: '206',
+      name: 'Evil Eye Rakhi',
+      price: 135,
+      images: [
+        '../../assets/double6.jpeg',
+       '../../assets/double6.jpeg',
+       '../../assets/double6.jpeg',
+      ],
+    
+    
+    },
+    {
+      id: '301',
+      name: 'Beautiful Bhai Bhabhi Rakhi',
+      price: 135,
+      images: [
+        '../../assets/bhaibhabhi1.jpeg',
+       '../../assets/bhaibhabhi1.jpeg',
+       '../../assets/bhaibhabhi1.jpeg',
+      ],
+    },
+    {
+      id: '302',
+      name: 'Beautiful Bhai Bhabhi Rakhi',
+      price: 135,
+      images: [
+        '../../assets/bhaibhabhi2.jpeg',
+        '../../assets/bhaibhabhi2.jpeg',
+        '../../assets/bhaibhabhi2.jpeg',
+      ],
+    },
+    {
+      id: '303',
+      name: 'Beautiful Bhai Bhabhi Rakhi',
+      price: 135,
+      images: [
+        '../../assets/bhaibhabhi1.jpeg',
+        '../../assets/bhaibhabhi1.jpeg',
+        '../../assets/bhaibhabhi1.jpeg',
+      ],
+    
+      
+    },
+    {
+      id: '101',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god1.jpeg',
+        '../../assets/god1.jpeg',
+        '../../assets/god1.jpeg',
+      ],
+    
+      
+    },
+    {
+      id: '102',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god2.jpeg',
+      ],
+    },
+    {
+      id: '103',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god3.jpeg',
+      ],
+    },
+    {
+      id: '104',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god4.jpeg',
+      ],
+    },
+    {
+      id: '105',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god5.jpeg',
+      ],
+    },
+    {
+      id: '106',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god6.jpeg',
+      ],
+    },
+    {
+      id: '107',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god7.jpeg',
+      ],
+    },
+    {
+      id: '108',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god8.jpeg',
+      ],
+    },
+    {
+      id: '109',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god9.jpeg',
+      ],
+    },
+    {
+      id: '110',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god10.jpeg',
+      ],
+    },
+    {
+      id: '111',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god11.jpeg',
+      ],
+    },
+    {
+      id: '112',
+      name: 'Bhakti Rakhi',
+      price: 70,
+      images: [
+        '../../assets/god12.jpeg',
+      ],
+    },
+
+    
   ];
 
   product: any;
@@ -40,6 +213,8 @@ export class ProductDetailsComponent implements OnInit {
   ngOnInit() {
     this.route.paramMap.subscribe(params => {
       const productId = params.get('productId');
+      console.log(productId);
+      
       if (productId) {
         this.product = this.products.find(p => p.id === productId);
         console.log(this.product);
@@ -51,15 +226,13 @@ export class ProductDetailsComponent implements OnInit {
 
   shareOnWhatsApp() {
     if (this.product) {
-      const message = `Check out this product!\n\n` +
-        `**Name:** ${this.product.name}\n` +
-        `**Price:** ₹${this.product.price}\n` +
-        `**Description:** ${this.product.name}\n` +  // Update description as needed
-        `**Company Name:** [Your Company Name Here]\n` +
-        `**Image:** ${this.product.images[0]}\n` + // Display the image URL
-        `For more details, visit: ${this.product.url}`;
+      const message = `Hii, I want this Prouct!\n\n` +
+        `Name:${this.product.name}\n` +
+        `Price: ₹${this.product.price}\n` +
+        `Description: ${this.product.name}\n` +
+        `Image: ${this.product.images[0]}\n`;
 
-      const phoneNumber = '7972726558';
+      const phoneNumber = '7798599666';
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     }

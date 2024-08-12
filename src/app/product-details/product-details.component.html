@@ -6,7 +6,9 @@
         <img [src]="product.images[0]" alt="{{product.name}}">
       </div>
       <div class="thumbnails">
-        <img *ngFor="let image of product.images" [src]="image" alt="{{product.name}}">
+        <img [src]="product.images[0]" alt="{{product.name}}">
+        <img  [src]="product.images[0]" alt="{{product.name}}">
+        <img  [src]="product.images[0]" alt="{{product.name}}">
       </div>
     </div>
   
@@ -15,31 +17,15 @@
       <p class="price">₹{{ product.price }}</p>
   
       <div class="actions">
-        <button class="add-to-cart">Add to Cart</button>
+        <!-- <button class="add-to-cart">Add to Cart</button> -->
         <button class="buy-now" (click)="shareOnWhatsApp()">Buy Now | ₹{{ product.price }}</button>
       </div>
   
-      <div class="additional-info">
-        <div class="similar-products">
-          <h2>Similar Rakhi Hampers</h2>
-          <div class="similar-item" *ngFor="let item of product.similarProducts">
-            <div class="card">
-              <img [src]="item.image" alt="{{item.name}}">
-              <p>{{item.name}} <br> ₹{{item.price}}</p>
-            </div>
-          </div>
-        </div>
+
+   
   
-        <div class="special-additions">
-          <h2>Make This Rakhi Special</h2>
-          <div class="addition-item" *ngFor="let item of product.specialAdditions">
-            <div class="card">
-              <img [src]="item.image" alt="{{item.name}}">
-              <p>{{item.name}} <br> ₹{{item.price}}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+
+      
     </div>
   </div>
   

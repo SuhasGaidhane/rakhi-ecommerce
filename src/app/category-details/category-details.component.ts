@@ -213,7 +213,7 @@ export class CategoryDetailsComponent implements OnInit {
     '1': [
       {
         productId:101,
-        name: 'Bhakti Rakhi',
+        name: 'OM Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -222,7 +222,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:102,
-        name: 'Bhakti Rakhi',
+        name: "Ram's Blessing Rakhi",
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -231,7 +231,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:103,
-        name: 'Ganesh Rakhi',
+        name: 'Ram Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -240,7 +240,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:104,
-        name: 'Ganesh Rakhi',
+        name: "Krishna's Celestial Pankh Rakhi",
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -249,7 +249,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:105,
-        name: 'Ganesh Rakhi',
+        name: 'Beautiful Krishna Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -259,7 +259,7 @@ export class CategoryDetailsComponent implements OnInit {
      
       {
         productId:106,
-        name: 'Ganesh Rakhi',
+        name: "Mahakal's Damru Rakhi",
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -268,7 +268,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:107,
-        name: 'Bhakti Rakhi',
+        name: 'OM Trishul Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -277,7 +277,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:108,
-        name: 'Bhakti Rakhi',
+        name: 'Shivling Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -286,7 +286,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:109,
-        name: 'Bhakti Rakhi',
+        name: 'Graceful OM Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -295,7 +295,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:110,
-        name: 'Bhakti Rakhi',
+        name: 'Beautiful Rama Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
@@ -304,7 +304,7 @@ export class CategoryDetailsComponent implements OnInit {
       },
       {
         productId:111,
-        name: 'Bhakti Rakhi',
+        name: 'Swastik Rakhi',
         price: 70,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',

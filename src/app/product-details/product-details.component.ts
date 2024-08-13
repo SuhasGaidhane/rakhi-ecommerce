@@ -104,7 +104,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '101',
-      name: 'Bhakti Rakhi',
+      name: 'OM Rakhi',
       price: 70,
       images: [
         '../../assets/god1.jpeg',
@@ -116,7 +116,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '102',
-      name: 'Bhakti Rakhi',
+      name: "Ram's Blessing Rakhi",
       price: 70,
       images: [
         '../../assets/god2.jpeg',
@@ -124,7 +124,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '103',
-      name: 'Bhakti Rakhi',
+      name: 'Ram Rakhi',
       price: 70,
       images: [
         '../../assets/god3.jpeg',
@@ -132,7 +132,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '104',
-      name: 'Bhakti Rakhi',
+      name: "Krishna's Celestial Pankh Rakhi",
       price: 70,
       images: [
         '../../assets/god4.jpeg',
@@ -140,7 +140,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '105',
-      name: 'Bhakti Rakhi',
+      name: 'Beautiful Krishna Rakhi',
       price: 70,
       images: [
         '../../assets/god5.jpeg',
@@ -148,7 +148,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '106',
-      name: 'Bhakti Rakhi',
+      name: "Mahakal's Damru Rakhi",
       price: 70,
       images: [
         '../../assets/god6.jpeg',
@@ -156,7 +156,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '107',
-      name: 'Bhakti Rakhi',
+      name: 'OM Trishul Rakhi',
       price: 70,
       images: [
         '../../assets/god7.jpeg',
@@ -164,7 +164,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '108',
-      name: 'Bhakti Rakhi',
+      name: 'Shivling Rakhi',
       price: 70,
       images: [
         '../../assets/god8.jpeg',
@@ -172,7 +172,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '109',
-      name: 'Bhakti Rakhi',
+      name: 'Graceful OM Rakhi',
       price: 70,
       images: [
         '../../assets/god9.jpeg',
@@ -180,7 +180,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '110',
-      name: 'Bhakti Rakhi',
+      name: 'Beautiful Rama Rakhi',
       price: 70,
       images: [
         '../../assets/god10.jpeg',
@@ -188,7 +188,7 @@ export class ProductDetailsComponent implements OnInit {
     },
     {
       id: '111',
-      name: 'Bhakti Rakhi',
+      name: 'Swastik Rakhi',
       price: 70,
       images: [
         '../../assets/god11.jpeg',
@@ -229,8 +229,8 @@ export class ProductDetailsComponent implements OnInit {
       const message = `Hii, I want this Prouct!\n\n` +
         `Name:${this.product.name}\n` +
         `Price: ₹${this.product.price}\n` +
-        `Description: ${this.product.name}\n` +
-        `Image: ${this.product.images[0]}\n`;
+        `Description: ${this.product.name}\n`;
+        // `Image: ${this.product.images[0]}\n`;
 
       const phoneNumber = '7798599666';
       const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;

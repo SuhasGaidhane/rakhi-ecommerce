@@ -1,0 +1,78 @@
+/* General Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Logo Section */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.deliver-to {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.deliver-to img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Icons Section */
+.icons-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.icon-item .icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.icon-item span {
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo-section {
+    margin-bottom: 10px;
+  }
+
+  .icons-section {
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .icon-item {
+    margin: 5px 10px;
+  }
+}

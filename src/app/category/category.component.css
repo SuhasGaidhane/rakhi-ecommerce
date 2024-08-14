@@ -1,0 +1,67 @@
+.category-list {
+  text-align: center;
+  padding: 32px 16px 0 !important;
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(255, 249, 219, 0.48), hsla(0, 0%, 100%, 0)),
+  url("https://imgcdn.floweraura.com/ssr-build/static/media/rakhi-view-mob.aa49c3eb.svg"),
+  url("https://imgcdn.floweraura.com/ssr-build/static/media/left-madola.ca33bcbe.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0, calc(100% - 20px) top;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subheading {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  padding: 10px;
+}
+
+.card {
+  background-color: transparent;
+  margin: 10px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .card-container {
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+

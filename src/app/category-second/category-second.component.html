@@ -1,0 +1,18 @@
+<div class="best-seller-rakhi">
+  <div class="top_content">
+    <div class="heading_best_saler">
+      <h2>Best Seller Rakhi</h2>
+      <p>A Perfect Way To Celebrate Your Bond</p>
+    </div>
+<!--    <button class="view-all">View All</button>-->
+  </div>
+  <div class="grid-container">
+    <div class="category-item" *ngFor="let item of bestSaler">
+      <img [src]="item.photoUrl" [alt]="item.name">
+      <div class="item-info">
+        <h3>{{ item.name }}</h3>
+        <p>₹ {{ item.price }}</p>
+      </div>
+    </div>
+  </div>
+</div>

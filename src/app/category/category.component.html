@@ -1,1 +1,18 @@
-<p>category works!</p>
+<div class="category-list">
+  <h2>Rakhi Online</h2>
+  <p class="subheading">Celebrating Yaadon Ka Bandhan</p>
+
+  <div class="card-container">
+    <div *ngFor="let category of categories" class="card" (click)="navigateToDetails(category.id)">
+      <!-- <a [routerLink]="['/category-details', category.id]"> -->
+        <img [src]="category.photoUrl" alt="{{ category.name }}" class="card-image"/>
+        <div class="card-content">
+          <h3 class="card-title">{{ category.name }}</h3>
+        </div>
+      <!-- </a> -->
+    </div>
+  </div>
+</div>
+
+
+<app-category-second></app-category-second>

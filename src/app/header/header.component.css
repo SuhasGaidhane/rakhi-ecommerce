@@ -1,170 +1,78 @@
+/* General Header Styles */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .logo-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .company-name {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-right: 20px;
-  }
-  
-  .deliver-to {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
 
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    margin-left: 50px;
-  }
-  
-  .deliver-to span {
-    margin-right: 5px;
-    margin-left: 5px;
-  }
+/* Logo Section */
+.logo-section {
+  display: flex;
+  align-items: center;
+}
 
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
 
-  
-  .arrow-down {
-    border: solid black;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-  }
-  
-  .search-section {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    max-width: 500px;
-    margin: 0 20px;
-  }
-  
-  .search-input {
-    flex-grow: 1;
-    padding: 10px;
-    border-radius: 5px 0 0 5px;
-    border: 1px solid #e0e0e0;
-  }
-  
-  .search-button {
-    padding: 10px;
-    background-color: #f5f5f5;
-    border: 1px solid #e0e0e0;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-  
-  .icons-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .icon-item {
-    display: flex;
+.deliver-to {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.deliver-to img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* Icons Section */
+.icons-section {
+  display: flex;
+  align-items: center;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.icon-item .icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+
+.icon-item span {
+  font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
     flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
-    text-align: center;
+    align-items: flex-start;
   }
-  
-  .icon-item i {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
+
+  .logo-section {
+    margin-bottom: 10px;
   }
-  
-  /* Icons placeholder (you would replace these with actual icons) */
-  .icon-track-order::before {
-    content: "📞";
+
+  .icons-section {
+    margin-top: 10px;
+    flex-wrap: wrap;
   }
-  
-  .icon-gift-finder::before {
-    content: "🎁";
+
+  .icon-item {
+    margin: 5px 10px;
   }
-  
-  .icon-cart::before {
-    content: "🛒";
-    position: relative;
-  }
-  
-  .icon-cart::after {
-    content: "0";
-    position: absolute;
-    top: -5px;
-    right: -10px;
-    background-color: red;
-    color: white;
-    border-radius: 50%;
-    padding: 2px 5px;
-    font-size: 0.75rem;
-  }
-  
-  .icon-sign-in::before {
-    content: "👤";
-  }
-  
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .logo-section {
-      margin-bottom: 10px;
-    }
-  
-    .company-name {
-      font-size: 1.2rem;
-      margin-right: 0;
-    }
-  
-    .deliver-to {
-      margin-left: 0;
-      margin-bottom: 10px;
-    }
-  
-    .search-section {
-      max-width: 100%;
-      margin: 10px 0;
-    }
-  
-    .icons-section {
-      margin-top: 10px;
-    }
-  
-    .icon-item {
-      margin-left: 10px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .company-name {
-      font-size: 1rem;
-    }
-  
-    .search-input {
-      padding: 8px;
-    }
-  
-    .search-button {
-      padding: 8px;
-    }
-  
-    .icon-item i {
-      font-size: 1.2rem;
-    }
-  }
+}

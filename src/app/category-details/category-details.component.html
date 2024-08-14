@@ -1,25 +1,4 @@
-<!-- <div class="category-container">
-    <h2>Rakhi Collection</h2>
-    <div class="product-grid">
-      <div class="product-card" *ngFor="let product of products">
-        <div class="image-container">
-          <img [src]="product.image" alt="{{ product.name }}" />
-          <span class="badge" *ngIf="product.isBestSeller">Best Seller</span>
-        </div>
-        <div class="product-info">
-          <h3>{{ product.name }}</h3>
-          <p class="price">₹{{ product.price }}</p>
-          <div class="rating">
-            <span *ngFor="let star of product.stars">★</span>
-          </div>
-          <p class="delivery">Earliest Delivery: {{ product.deliveryTime }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-   -->
-
-   <div class="category-container">
+<div class="category-container">
     <h2>Rakhi Collection</h2>
     <div class="product-grid">
       <div class="product-card" *ngFor="let product of filteredProducts" (click)="navigateToProductDetails(product.productId)">
@@ -30,10 +9,6 @@
         <div class="product-info">
           <h3>{{ product.name }}</h3>
           <p class="price">₹{{ product.price }}</p>
-          <div class="rating">
-            <span *ngFor="let star of product.stars">★</span>
-          </div>
-          <p class="delivery">Earliest Delivery: {{ product.deliveryTime }}</p>
         </div>
       </div>
     </div>

@@ -1,262 +1,67 @@
 .category-list {
-    text-align: center;
-    margin: 20px;
-    padding: 32px 16px 0 !important;
-    border-radius: 0;
-    background: linear-gradient(180deg, rgba(255, 249, 219, 0.48), hsla(0, 0%, 100%, 0)), 
-                url("https://imgcdn.floweraura.com/ssr-build/static/media/rakhi-view-mob.aa49c3eb.svg"),
-                url("https://imgcdn.floweraura.com/ssr-build/static/media/left-madola.ca33bcbe.svg");
-    background-repeat: no-repeat;
-    background-position: 0 0, calc(100% - 20px) top;
+  text-align: center;
+  padding: 32px 16px 0 !important;
+  border-radius: 0;
+  background: linear-gradient(180deg, rgba(255, 249, 219, 0.48), hsla(0, 0%, 100%, 0)),
+  url("https://imgcdn.floweraura.com/ssr-build/static/media/rakhi-view-mob.aa49c3eb.svg"),
+  url("https://imgcdn.floweraura.com/ssr-build/static/media/left-madola.ca33bcbe.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0, calc(100% - 20px) top;
 }
 
-  
-  h2 {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .subheading {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  .card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .card {
-    background-color: transparent;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
-  }
-  
-  .card a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .card-image {
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  .card-content {
-    padding: 10px;
-  }
-  
-  .card-title {
-    font-size: 18px;
-    color: #333;
-  }
-  
-
-
-
-
-/* best seller */
-.best-seller-rakhi {
-    text-align: center;
-    padding: 20px;
-    margin: 70px;
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
 }
 
-.best-seller-rakhi h2 {
-    font-size: 24px;
-    margin-bottom: 5px;
+.subheading {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
 }
 
-.best-seller-rakhi p {
-    font-size: 16px;
-    color: #777;
+.card-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-items: center;
+  padding: 10px;
 }
 
-.view-all {
-    height: 40px;
-    background-color: #004e61;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 30px;
+.card {
+  background-color: transparent;
+  margin: 10px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
 }
 
-.top_content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    
+.card a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.heading_best_saler {
-    text-align: start;
+.card-image {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.view-all:hover {
-    background-color: #003e4e;
+.card-content {
+  padding: 10px;
 }
 
-.category-list2 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.category-item2 {
-    width: 200px;
-    text-align: center; /* Center the content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white;
-    border: 1px solid hsla(0, 0%, 52.5%, 0.5);
-    border-radius: 20px;
-    overflow: hidden;
-    margin-right: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.category-item img {
-    width: 80%; /* Reduce width to create space around the image */
-    height: 150px; /* Adjust height to make the image smaller */
-    object-fit: contain; /* Keep the image within its container */
-    margin: 10px auto; /* Center the image horizontally */
-    border-radius: 10px; /* Optional: Add some border radius to the image */
-}
-
-.item-info {
-    padding: 10px;
-}
-
-.item-info h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-.item-info p {
-    font-size: 14px;
-    margin: 5px 0;
-}
-
-.item-info p:last-child {
-    color: #0078D4;
-    font-weight: bold;
-}
-@media (max-width: 1024px) {
-  .category-list2,
-  .card-container {
-      justify-content: space-between;
-  }
-}
-
-@media (max-width: 768px) {
-  .category-list2,
-  .card-container {
-      justify-content: space-around;
-  }
-
-  .category-item2,
-  .card {
-      width: 48%; /* Adjust width for two cards per row */
-  }
-}
-
-@media (max-width: 480px) {
-  .category-list2,
-  .card-container {
-      justify-content: center;
-  }
-
-  .category-item2,
-  .card {
-      width: 100%; /* Full width for small screens */
-      margin: 10px 0;
-  }
-
-  .best-seller-rakhi {
-      margin: 20px;
-  }
-
-  .view-all {
-      width: 100%;
-  }
-}
-
-/* Header Styles */
-.header {
-  background-color: #ffcc99; /* Light peach background color */
-  color: #333; /* Darker text color */
-  padding: 20px;
-  border-bottom: 2px solid #d28e00; /* Goldish border at the bottom */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
-  text-align: center; /* Center content */
-}
-
-.header-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo-section {
-  flex: 1;
-  text-align: left;
+.card-title {
   font-size: 18px;
+  color: #333;
 }
 
-.logo-section h1 {
-  font-size: 36px; /* Larger, bold font for the brand name */
-  color: #d28e00; /* Goldish color for the heading */
-  margin: 0;
-  font-family: 'Arial Black', sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for emphasis */
-}
-
-.logo-section p {
-  margin: 5px 0;
-  font-size: 16px;
-}
-
-.info-section {
-  flex: 1;
-  text-align: right;
-}
-
-.info-section p {
-  margin: 5px 0;
-  font-size: 16px;
-  font-family: 'Arial', sans-serif;
-}
-
+/* Media Query for Mobile */
 @media (max-width: 768px) {
-  .header-content {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .logo-section,
-  .info-section {
-      text-align: center;
-      flex: 1;
-  }
-
-  .logo-section h1 {
-      font-size: 28px;
-  }
-
-  .logo-section p,
-  .info-section p {
-      font-size: 14px;
+  .card-container {
+    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
+

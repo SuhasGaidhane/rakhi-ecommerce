@@ -7,6 +7,7 @@ import { CategoryDetailsComponent } from './category-details/category-details.co
 import { CategoryComponent } from './category/category.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { HeaderComponent } from './header/header.component';
+import { CategorySecondComponent } from './category-second/category-second.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HeaderComponent } from './header/header.component';
     CategoryDetailsComponent,
     CategoryComponent,
     ProductDetailsComponent,
-    HeaderComponent
+    HeaderComponent,
+    CategorySecondComponent
   ],
   imports: [
     BrowserModule,

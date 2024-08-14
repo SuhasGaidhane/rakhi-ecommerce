@@ -13,9 +13,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Ganesh Rakhi',
       price: 135,
       images: [
-        '../../assets/double1.jpeg',
-        '../../assets/double1.jpeg',
-        '../../assets/double1.jpeg',
+        'https://rakhi-sapna.web.app//assets/double1.jpeg',
+        'https://rakhi-sapna.web.app//assets/double1.jpeg',
+        'https://rakhi-sapna.web.app//assets/double1.jpeg',
       ],
     },
     {
@@ -23,9 +23,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Brother Rakhi',
       price: 135,
       images: [
-        '../../assets/double2.jpeg',
-        '../../assets/double2.jpeg',
-        '../../assets/double2.jpeg',
+        'https://rakhi-sapna.web.app//assets/double2.jpeg',
+        'https://rakhi-sapna.web.app//assets/double2.jpeg',
+        'https://rakhi-sapna.web.app//assets/double2.jpeg',
       ]
     },
     {
@@ -33,9 +33,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Evil Eye Rakhi Purpul',
       price: 135,
       images: [
-        '../../assets/double3.jpeg',
-       '../../assets/double3.jpeg',
-       '../../assets/double3.jpeg',
+        'https://rakhi-sapna.web.app/assets/double3.jpeg',
+       'https://rakhi-sapna.web.app/assets/double3.jpeg',
+       'https://rakhi-sapna.web.app/assets/double3.jpeg',
       ]
     },
     {
@@ -43,9 +43,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Sweet Bro Rakhi',
       price: 135,
       images: [
-        '../../assets/double4.jpeg',
-        '../../assets/double4.jpeg',
-        '../../assets/double4.jpeg',
+        'https://rakhi-sapna.web.app/assets/double4.jpeg',
+        'https://rakhi-sapna.web.app/assets/double4.jpeg',
+        'https://rakhi-sapna.web.app/assets/double4.jpeg',
       ]
     },
     {
@@ -53,9 +53,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Magical Rakhi',
       price: 135,
       images: [
-        '../../assets/double5.jpeg',
-        '../../assets/double5.jpeg',
-        '../../assets/double5.jpeg',
+        'https://rakhi-sapna.web.app/assets/double5.jpeg',
+        'https://rakhi-sapna.web.app/assets/double5.jpeg',
+        'https://rakhi-sapna.web.app/assets/double5.jpeg',
       ],
     },
     {
@@ -63,21 +63,21 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Evil Eye Rakhi',
       price: 135,
       images: [
-        '../../assets/double6.jpeg',
-       '../../assets/double6.jpeg',
-       '../../assets/double6.jpeg',
+        'https://rakhi-sapna.web.app/assets/double6.jpeg',
+       'https://rakhi-sapna.web.app/assets/double6.jpeg',
+       'https://rakhi-sapna.web.app/assets/double6.jpeg',
       ],
-    
-    
+
+
     },
     {
       id: '301',
       name: 'Beautiful Bhai Bhabhi Rakhi',
       price: 135,
       images: [
-        '../../assets/bhaibhabhi1.jpeg',
-       '../../assets/bhaibhabhi1.jpeg',
-       '../../assets/bhaibhabhi1.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
+       'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
+       'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
       ],
     },
     {
@@ -85,9 +85,9 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Beautiful Bhai Bhabhi Rakhi',
       price: 135,
       images: [
-        '../../assets/bhaibhabhi2.jpeg',
-        '../../assets/bhaibhabhi2.jpeg',
-        '../../assets/bhaibhabhi2.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi2.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi2.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi2.jpeg',
       ],
     },
     {
@@ -95,31 +95,31 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Beautiful Bhai Bhabhi Rakhi',
       price: 135,
       images: [
-        '../../assets/bhaibhabhi1.jpeg',
-        '../../assets/bhaibhabhi1.jpeg',
-        '../../assets/bhaibhabhi1.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
+        'https://rakhi-sapna.web.app/assets/bhaibhabhi1.jpeg',
       ],
-    
-      
+
+
     },
     {
       id: '101',
       name: 'OM Rakhi',
       price: 70,
       images: [
-        '../../assets/god1.jpeg',
-        '../../assets/god1.jpeg',
-        '../../assets/god1.jpeg',
+        'https://rakhi-sapna.web.app/assets/god1.jpeg',
+        'https://rakhi-sapna.web.app/assets/god1.jpeg',
+        'https://rakhi-sapna.web.app/assets/god1.jpeg',
       ],
-    
-      
+
+
     },
     {
       id: '102',
       name: "Ram's Blessing Rakhi",
       price: 70,
       images: [
-        '../../assets/god2.jpeg',
+        'https://rakhi-sapna.web.app/assets/god2.jpeg',
       ],
     },
     {
@@ -127,7 +127,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Ram Rakhi',
       price: 70,
       images: [
-        '../../assets/god3.jpeg',
+        'https://rakhi-sapna.web.app/assets/god3.jpeg',
       ],
     },
     {
@@ -135,7 +135,7 @@ export class ProductDetailsComponent implements OnInit {
       name: "Krishna's Celestial Pankh Rakhi",
       price: 70,
       images: [
-        '../../assets/god4.jpeg',
+        'https://rakhi-sapna.web.app/assets/god4.jpeg',
       ],
     },
     {
@@ -143,7 +143,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Beautiful Krishna Rakhi',
       price: 70,
       images: [
-        '../../assets/god5.jpeg',
+        'https://rakhi-sapna.web.app/assets/god5.jpeg',
       ],
     },
     {
@@ -151,7 +151,7 @@ export class ProductDetailsComponent implements OnInit {
       name: "Mahakal's Damru Rakhi",
       price: 70,
       images: [
-        '../../assets/god6.jpeg',
+        'https://rakhi-sapna.web.app/assets/god6.jpeg',
       ],
     },
     {
@@ -159,7 +159,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'OM Trishul Rakhi',
       price: 70,
       images: [
-        '../../assets/god7.jpeg',
+        'https://rakhi-sapna.web.app/assets/god7.jpeg',
       ],
     },
     {
@@ -167,7 +167,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Shivling Rakhi',
       price: 70,
       images: [
-        '../../assets/god8.jpeg',
+        'https://rakhi-sapna.web.app/assets/god8.jpeg',
       ],
     },
     {
@@ -175,7 +175,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Graceful OM Rakhi',
       price: 70,
       images: [
-        '../../assets/god9.jpeg',
+        'https://rakhi-sapna.web.app/assets/god9.jpeg',
       ],
     },
     {
@@ -183,7 +183,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Beautiful Rama Rakhi',
       price: 70,
       images: [
-        '../../assets/god10.jpeg',
+        'https://rakhi-sapna.web.app/assets/god10.jpeg',
       ],
     },
     {
@@ -191,7 +191,7 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Swastik Rakhi',
       price: 70,
       images: [
-        '../../assets/god11.jpeg',
+        'https://rakhi-sapna.web.app/assets/god11.jpeg',
       ],
     },
     {
@@ -199,11 +199,11 @@ export class ProductDetailsComponent implements OnInit {
       name: 'Bhakti Rakhi',
       price: 70,
       images: [
-        '../../assets/god12.jpeg',
+        'https://rakhi-sapna.web.app/assets/god12.jpeg',
       ],
     },
 
-    
+
   ];
 
   product: any;
@@ -214,7 +214,7 @@ export class ProductDetailsComponent implements OnInit {
     this.route.paramMap.subscribe(params => {
       const productId = params.get('productId');
       console.log(productId);
-      
+
       if (productId) {
         this.product = this.products.find(p => p.id === productId);
         console.log(this.product);
@@ -226,15 +226,18 @@ export class ProductDetailsComponent implements OnInit {
 
   shareOnWhatsApp() {
     if (this.product) {
-      const message = `Hii, I want this Prouct!\n\n` +
-        `Name:${this.product.name}\n` +
+      const message = `Hi, I want this product!\n\n` +
+        `Name: ${this.product.name}\n` +
         `Price: ₹${this.product.price}\n` +
-        `Description: ${this.product.name}\n`;
-        // `Image: ${this.product.images[0]}\n`;
+        `Description: ${this.product.description}\n` +
+        `Check it out here: ${this.product.images[0]}`; // Ensure this URL is a product page with OG tags
 
       const phoneNumber = '7798599666';
-      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      const encodedMessage = encodeURIComponent(message);
+      const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
       window.open(url, '_blank');
     }
   }
+
+
 }

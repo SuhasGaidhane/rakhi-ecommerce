@@ -226,18 +226,15 @@ export class ProductDetailsComponent implements OnInit {
 
   shareOnWhatsApp() {
     if (this.product) {
-      const message = `Hi, I want this product!\n\n` +
-        `Name: ${this.product.name}\n` +
+      const message = `Hii, I want this Prouct!\n\n` +
+        `Name:${this.product.name}\n` +
         `Price: ₹${this.product.price}\n` +
-        `Description: ${this.product.description}\n` +
-        `Check it out here: ${this.product.images[0]}`; // Ensure this URL is a product page with OG tags
+        `Description: ${this.product.name}\n`+
+        `Image: ${this.product.images[0]}\n`;
 
       const phoneNumber = '7798599666';
-      const encodedMessage = encodeURIComponent(message);
-      const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
       window.open(url, '_blank');
     }
   }
-
-
 }

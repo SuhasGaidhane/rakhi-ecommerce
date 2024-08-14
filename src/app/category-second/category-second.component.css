@@ -1,0 +1,96 @@
+.best-seller-rakhi {
+  text-align: center;
+
+}
+
+
+.grid-container{
+  gap: 10px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(2,2fr);
+}
+
+.best-seller-rakhi h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.best-seller-rakhi p {
+  font-size: 16px;
+  color: #777;
+}
+
+.view-all {
+
+  width: 100%;
+  margin: 20px;
+  height: 40px;
+  background-color: #004e61;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top_content {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.heading_best_saler {
+  text-align: start;
+}
+
+.view-all:hover {
+  background-color: #003e4e;
+}
+
+.category-item {
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border: 1px solid hsla(0, 0%, 52.5%, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.category-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: fill;
+}
+
+.item-info {
+  margin: 10px;
+}
+
+.item-info h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.item-info p {
+  font-size: 14px;
+}
+
+.item-info p:last-child {
+  color: #0078D4;
+  font-weight: bold;
+}
+
+/* Grid layout for category items */
+.best-seller-rakhi {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+

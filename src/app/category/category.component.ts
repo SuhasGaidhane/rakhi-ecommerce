@@ -54,8 +54,8 @@ export class CategoryComponent {
     { id: 1, name: 'God Rakhi', photoUrl: 'https://imgcdn.floweraura.com/one-rakhi_8.png', data: 'Data for Category 1' },
     { id: 2, name: 'Rakhi', photoUrl: 'https://imgcdn.floweraura.com/two-rakhi_2.png', data: 'Data for Category 2' },
     { id: 3, name: 'Bhaiya Bhabhi Rakhi', photoUrl: 'https://imgcdn.floweraura.com/bhaiya-bhabhi-rakhi_5.png', data: 'Data for Category 3' },
-    { id: 4, name: 'Kids Rakhi', photoUrl: 'https://imgcdn.floweraura.com/kids-rakhi_10.png', data: 'Data for Category 4' },
-    { id: 5, name: 'Rakhi Hampers', photoUrl: 'https://imgcdn.floweraura.com/bhaiya-bhabhi-rakhi_5.png', data: 'Data for Category 5' },
+    { id: 5, name: 'Gifts for Sister', photoUrl: 'https://imgcdn.floweraura.com/bracelet-rakhi_6.jpg?tr=w-286,h-286,dpr-1.5,q-7', data: 'Data for Category 5' },
+    { id: 4, name: 'Kids Rakhi (Soon)', photoUrl: 'https://imgcdn.floweraura.com/kids-rakhi_10.png', data: 'Data for Category 4' },
   ];
 
 

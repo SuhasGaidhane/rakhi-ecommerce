@@ -7,9 +7,9 @@
 .grid-container{
   gap: 10px;
   display: grid;
-  justify-content: space-between;
-  align-items: center;
-  grid-template-columns: repeat(2,2fr);
+  justify-content: center;
+  grid-template-columns: repeat(2, 2fr);
+  justify-items: center;
 }
 
 .best-seller-rakhi h2 {
@@ -44,7 +44,8 @@
 }
 
 .heading_best_saler {
-  text-align: start;
+  margin-left: 35px;
+  text-align: center;
 }
 
 .view-all:hover {

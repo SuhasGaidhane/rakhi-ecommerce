@@ -1,126 +1,3 @@
-// import { Component } from '@angular/core';
-
-// @Component({
-//   selector: 'app-category-details',
-//   templateUrl: './category-details.component.html',
-//   styleUrls: ['./category-details.component.css']
-// })
-// export class CategoryDetailsComponent {
-//   products = [
-//     {
-//       name: 'Blue Designer Stone Rakhi',
-//       price: 245,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/Rak-22-5206-BB.JPG?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Red And Gold Kundan Rakhi',
-//       price: 135,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/rak-21-4720-B.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Red Designer Charm Rakhi With Almond Rocks',
-//       price: 395,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/red-designer-charm-rakhi-with-almond-rocks-9774887ra-A_0.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     },
-//     {
-//       name: 'Beautiful Mor Pankh Rakhi',
-//       price: 115,
-//       stars: [1, 2, 3, 4, 5],
-//       deliveryTime: '2-3 days',
-//       isBestSeller: true,
-//       image: 'https://imgcdn.floweraura.com/beautiful-mor-pankh-rakhi-9777167gf-B_1.jpg?tr=w-264,dpr-1.5,q-70'
-//     }
-//   ];
-// }
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -153,7 +30,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:201,
         name: 'Ganesh Rakhi',
-        price: 60,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -162,7 +39,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:202,
         name: 'Brother Rakhi',
-        price: 60,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -171,7 +48,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:203,
         name: 'Evil Eye Rakhi Purpul',
-        price: 135,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: false,
@@ -180,7 +57,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:204,
         name: 'Sweet Bro Rakhi',
-        price: 60,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: false,
@@ -189,7 +66,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:205,
         name: 'Magical Rakhi',
-        price: 65,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: false,
@@ -199,7 +76,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:206,
         name: 'Evil Eye Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: '2-3 days',
         isBestSeller: true,
@@ -214,7 +91,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:101,
         name: 'OM Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -223,7 +100,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:102,
         name: "Ram's Blessing Rakhi",
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -232,7 +109,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:103,
         name: 'Ram Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -241,7 +118,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:104,
         name: "Krishna's Celestial Pankh Rakhi",
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -250,7 +127,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:105,
         name: 'Beautiful Krishna Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -260,7 +137,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:106,
         name: "Mahakal's Damru Rakhi",
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -269,7 +146,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:107,
         name: 'OM Trishul Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -278,7 +155,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:108,
         name: 'Shivling Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -287,7 +164,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:109,
         name: 'Graceful OM Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -296,7 +173,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:110,
         name: 'Beautiful Rama Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -305,7 +182,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:111,
         name: 'Swastik Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -315,7 +192,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:112,
         name: 'Bhakti Rakhi',
-        price: 70,
+        price: 49,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -328,7 +205,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:301,
         name: 'Beautiful Bhai Bhabhi Rakhi',
-        price: 202,
+        price: 109,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: false,
@@ -337,7 +214,7 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:302,
         name: 'Beautiful Bhai Bhabhi Rakhi',
-        price: 210,
+        price: 109,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: true,
@@ -346,11 +223,86 @@ export class CategoryDetailsComponent implements OnInit {
       {
         productId:303,
         name: 'Beautiful Bhai Bhabhi Rakhi',
-        price: 220,
+        price: 109,
         stars: [1, 2, 3, 4, 5],
         deliveryTime: 'Today',
         isBestSeller: false,
         image: '../../assets/bhaibhabhi3.jpeg'
+      },
+      {
+        productId:304,
+        name: 'Beautiful Bhai Bhabhi Rakhi',
+        price: 109,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/bhaibhabhi4.jpg'
+      },
+      {
+        productId:305,
+        name: 'Beautiful Bhai Bhabhi Rakhi',
+        price: 109,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: true,
+        image: '../../assets/bhaibhabhi5.jpg'
+      },
+      {
+        productId:306,
+        name: 'Beautiful Bhai Bhabhi Rakhi',
+        price: 109,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/bhaibhabhi6.jpg'
+      },
+      {
+        productId:307,
+        name: 'Beautiful Bhai Bhabhi Rakhi',
+        price: 109,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/bhaibhabhi7.jpg'
+      },
+      // More products
+    ],
+    '5': [
+      {
+        productId:501,
+        name: "Elegant Women's Watch with Crystal Accents",
+        price: 549,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/watch1.jpg'
+      },
+      {
+        productId:502,
+        name: "Sophisticated Ladies' Watch with Minimalist Dial",
+        price: 599,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: true,
+        image: '../../assets/watch2.jpg'
+      },
+      {
+        productId:503,
+        name: "Stylish Stainless Steel Women's Watch with Sparkling Bezel",
+        price: 599,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/watch3.jpg'
+      },
+      {
+        productId:504,
+        name: "Classic Women's Watch with Mother-of-Pearl Face",
+        price: 549,
+        stars: [1, 2, 3, 4, 5],
+        deliveryTime: 'Today',
+        isBestSeller: false,
+        image: '../../assets/watch4.jpg'
       },
       // More products
     ]
@@ -371,6 +323,9 @@ export class CategoryDetailsComponent implements OnInit {
         this.filteredProducts = [];
       }
     });
+  }
+  getDiscountedPrice(originalPrice: number, discountPercentage: number): number {
+    return originalPrice - (originalPrice * discountPercentage / 100);
   }
 
   filterProducts(categoryId: string) {

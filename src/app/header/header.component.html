@@ -1,19 +1,24 @@
 <header class="header">
   <div class="logo-section">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8Le8SEMIx7KaIujW0yUoA0QaDfiNCjr2_w&s" alt="Company Logo" class="logo" />
-
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy8Le8SEMIx7KaIujW0yUoA0QaDfiNCjr2_w&s" alt="Company Logo" class="logo" (click)="onHomeClick()" />
     <div class="deliver-to">
       <img src="https://imgcdn.floweraura.com/ssr-build/static/media/location-icon.fdb819c5.svg" alt="navigation_icon">
-      <span>Home Delivery available</span>
+      <span>Free Home Delivery available</span>
     </div>
   </div>
 
   <div class="icons-section">
+    <div class="icon-item" (click)="onHomeClick()">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACUCAMAAACtIJvYAAAAYFBMVEX///8AAABSUlJnZ2dKSkqwsLDMzMwVFRUGBgb8/Pzg4ODq6urJycn29vYPDw97e3tycnLX19ehoaFAQEDAwMAcHByNjY1cXFw4ODiYmJgkJCRXV1eGhoanp6crKyu2tra82jEkAAAEiklEQVR4nO2c2ZqqMBCEQRRk00FQVFze/y2PzkiHpYsE2c5F19WMxPArnUp3w6dliUQikUgkEs2nINvcN1nQNSRxW+ocP1R+Vjzstx5F5oMxoXP0Wnrs0fDhChxbyQGff2+zuk8FFXm183gRO+rBU+UTQR3MPj8PZa8mYfJvzKluTLRsZ6SKc/66xEtSJWtwYdbJclTREUDZ9tFdiqod51U1Yn4mKv/UCWXbl1rMz0MVFxqoRszPQhWkWqhXzFd8fg6qyIDpLRXzM1BdwDla2lHMT04Vg52W1cmfhwrF+Z1/OZ+Fyj2z078iO+CdPk2mp3J3/Ozh61i4Yo9d3ampLvzkp89h4KyHSamQnx9oBNiFLhb/FY9BFfLWea3uxO6VHZODXHQ4FfDzYz1TD3AiMQVVxs/rNDO82OEHTkIF4lzVTs/yD7+Hyw6jin/4WTflgLCwi7D8ZzMPFfDzXVYO+HVQlSNkYMmNSuXyK2hNX04Zc0QZoox+PKqMX1Y5QaktkHKEkK9+xqMC1nkrj9dyiD0tSa5SHI0qBrPTtxLXd78VYYEkYgwqECBX6ia4XuOQR1Yf8T4/nCrh85arivP2alMrM9RifUUF/PyHrhIfc2UKAW1uEJXOz+FJCVvn8/2p0Dlpa+kov1Iy1Oe4VCCzfFCcR3zM/emshoEk5isq4Oep8WantsiOirYn1ZP3c6eEYttpdVFzLcS5TT8qEOfk5x0nYj4C9vk+VKgOpYtimHCqNBVd7h5UqIKiAH42/RzJo/UKfP4c8ghtJboJuttpdVH5E/Ir9tHqVfICBqOMsU9e/gouneVmCKQqkLfQJhLo22l1FYFm6ouWCRUoFB/g8nbpShcJXQbN3RzQwDhTcmJeJ1RFaxe0TladN7+Qn5dv8oGNaUWdW7B1njtifsNXJhTn4E6EiahzC2Le2yAonZ+Dy2smVZUBnz+wTCDOd8oHBzC9pTyYvySt1oD1W/uyUDTXwbRDi7SlbyPisfKWzyf8TFSH9urQIlFVhmrYRsxPGOdV6WJ+V4151MIj0wU201/K+FArUxkq8HMCN+5l6KWqMuDHThlSGmPT3tzqJ/o2QKn51wgHG5vy8zHivKq9xuff2yZwIdowQVo0RJSo+SC3iSw+7aRCIOkqm74VZXqgJFmxzxmovPa7FEEvWkh8rm1xRkTLd9w4r4qSSJc5mFtBC5YaUGATGkfU2o1bMeQF7bYLbZKDUgS9KIlopQVZ22VpCwVNohFFhlqvmT47StWQKAxN2odDRU3M6qLaly/SpSI/HyVF0IuSCOXz6xKKmiaU1Bs8rDCOCgriT8ynlRwr+H1FFUC8tU4h6jN8fL5W7ERne3dXScQCVJZ/2G7PzefcwmqluATVK240nZBlqHQSKqESKqESKqH6z6jWzw2np3HKPwmVAyYwvlEgVEIlVEIlVEIlVEIlVEIlVEIlVEIlVEK1BJXxUzGDqYoeVMYPhA6m4p8F4xXORmX8aO1bpvd3h1L1/CkLQ6yBVL1/XyM4rdZapTfw7luqf/PqNOlPpIhEIpFIJBIto38vf03bl+tPewAAAABJRU5ErkJggg==" alt="Contact Icon" class="icon" />
+      <span>Home</span>
+    </div>
+
     <div class="icon-item" (click)="onContactClick()">
       <img src="https://www.svgrepo.com/show/9669/smartphone.svg" alt="Contact Icon" class="icon" />
       <span>Contact</span>
     </div>
-    <div class="icon-item">
+    
+    <div class="icon-item" (click)="giftSection()">
       <img src="https://www.svgrepo.com/show/503830/gift-box.svg" alt="Gift Finder Icon" class="icon" />
       <span>Gift Finder</span>
     </div>
